@@ -38,7 +38,7 @@ color:#0b0bb1;
   </div>
 
   <div class="container">
-	<div class="format "><h4>WELCOME TO THE TCS Employee portal </h4></div>
+	<div class="format "><h4>WELCOME TO THE TCS EMPLOYEE PORTAL </h4></div>
 	<center>
 	<form action = "create.jsp">
     	<button  class="format" type="submit">Click here to Raise new Issue</button>  
