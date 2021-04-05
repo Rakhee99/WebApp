@@ -17,6 +17,14 @@ input[type=text] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+input[type=label] {
+  width: 21%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 input[type=submit] {
   width: 10%;
   padding: 12px 20px;
@@ -50,7 +58,7 @@ color:#0b0bb1;
     	<input type="text" placeholder="Enter your ID here" name="aid" required>
 		<br>
 	<label class="format" >  Label : </label>
-	<input type="text" placeholder="Enter Label" name="label" required>
+	<input type="label" placeholder="Enter Label" name="label" required>
 		<br>
 	<label class="format" > Description : </label>
 	<input type="text" placeholder="Describe your Issue here" name="description" required>
