@@ -35,7 +35,7 @@ color:#0b0bb1;
 </head>
 <body>
 
-<div class="format" ><h2> Welcome Employee Help Desk Portal </h2></div>
+<div class="format" ><h2> Welcome to Employee Help Desk Portal </h2></div>
 
 <div class="container"> <center>
   	<form action="create.jsp">
