@@ -1,67 +1,52 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 0px solid #f1f1f1;}
+* {box-sizing: border-box;}
 
-input[type=submit], {
-  width: 50%;
+
+input[type=submit] {
+  background-color: #0b0bb1;
+  color: white;
   padding: 12px 20px;
-  margin: 8px 8px;
-  display: inline-block;
-  border: 5px solid #ccc;
-  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
 }
-DIV.container {
-	margin-left: auto;
-    margin-right: auto;
-    min-height: 10em;
-    display: table-cell;
-    text-align :center }
 
-.imgcontainer {
-  text-align: center;
-  margin: 50px 500 12px 500;
+input[type=submit]:hover {
+  background-color: #45a049;
 }
+
 .format{
 color:#0b0bb1;
   text-align: center;
+ }
  
-};
-  
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 </style>
 </head>
 <body>
-<center>
-  <div class="imgcontainer">
-  </div>
 
-  <div class="container">
-	<div class="format "><h3>WELCOME TO THE  EMPLOYEE ISSUE PORTAL </h3></div>
-	
-	<form action = "create.jsp">
-    	<button  class="format" type="submit">-------------Click here to Raise new Issue-------------</button>  
-	</form>
-	<br>
-	<form action = "delete.jsp">
-	<button class="format" type="submit">----------------Click here to Delete Issue----------------</button> 
-	</form>
-	<br>
-	<form action = "search.jsp">
-	 <button  class="format" type="submit">----------------Click here to search Issue----------------</button>
-	</form>
-	<br>
-	<form action = "update.jsp">
-	 <button  class="format" type="submit">----------------Click here to Update Issue----------------</button> 
-	</form>
-	
-  </div></center>
+<div class="format" ><h2> Welcome Employee Help Desk Portal </h2></div>
+
+<div class="container"> <center>
+  	<form action="create.jsp">
+    <input type="submit" value="-- RAISE NEW ISSUE --"> <br> </form>
+    <form action="delete.jsp">
+	<input type="submit" value="---- DELETE ISSUE ----"><br> </form>
+	<form action="update.jsp">
+	<input type="submit" value="---- UPDATE ISSUE ----"><br></form>
+	<form action="search.jsp">
+	<input type="submit" value="---- SEARCH ISSUE ----"><br></center> </form>
+</div>
 
 </body>
 </html>
-

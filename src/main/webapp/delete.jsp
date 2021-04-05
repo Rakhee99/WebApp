@@ -18,12 +18,12 @@ input[type=text]{
   box-sizing: border-box;
 }
 input[type=submit] {
-  width: 10%;
+  background-color: #0b0bb1;
+  color: white;
   padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .imgcontainer {
@@ -54,7 +54,7 @@ color:#0b0bb1;
 	<label for="aid"><b> Employee-ID : </b></label>
     	<input type="text" placeholder="Enter your ID here" name="aid" required>
 	<br>
-	<input type="submit"><br>
+	<input type="submit" value  = "Delete"><br>
 	</form>
 
 </center>

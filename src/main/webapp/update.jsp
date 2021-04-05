@@ -18,12 +18,12 @@ input[type=text] {
   box-sizing: border-box;
 }
 input[type=submit] {
-  width: 10%;
+  background-color: #0b0bb1;
+  color: white;
   padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .imgcontainer {
@@ -60,7 +60,7 @@ color:#0b0bb1;
 	<label> Description : </label>
 	<input type="text" placeholder="Describe your Issue here" name="description" required>
 	<br>
-	<input type="submit" ><br>
+	<input type="submit" value = "Update"><br>
 	</form>
 
 </center>
