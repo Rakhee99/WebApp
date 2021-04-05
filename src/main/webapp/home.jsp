@@ -45,19 +45,19 @@ color:#0b0bb1;
 	<div class="format "><h3>WELCOME TO THE  EMPLOYEE ISSUE PORTAL </h3></div>
 	
 	<form action = "create.jsp">
-    	<button  class="format" type="submit">------------Click here to Raise new Issue------------</button>  
+    	<button  class="format" type="submit">-------------Click here to Raise new Issue-------------</button>  
 	</form>
 	<br>
 	<form action = "delete.jsp">
-	<button class="format" type="submit">---------------Click here to Delete Issue---------------</button> 
+	<button class="format" type="submit">----------------Click here to Delete Issue----------------</button> 
 	</form>
 	<br>
 	<form action = "search.jsp">
-	 <button  class="format" type="submit">---------------Click here to search Issue---------------</button>
+	 <button  class="format" type="submit">----------------Click here to search Issue----------------</button>
 	</form>
 	<br>
 	<form action = "update.jsp">
-	 <button  class="format" type="submit">---------------Click here to Update Issue---------------</button> 
+	 <button  class="format" type="submit">----------------Click here to Update Issue----------------</button> 
 	</form>
 	
   </div></center>
