@@ -7,9 +7,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  border-radius: 20px;
+  background-color: #D4E6F1;
+  padding: 150px;
 }
 .format{
 color:#0b0bb1;
@@ -23,7 +23,7 @@ color:#0b0bb1;
  <div class="format ">
  	<h2> Issue has been Updated Successfully...... ! </h2>
  	<h3> Details of Updated Issue is : </h3>
-	<p> ${content} </p>
+	<h3> ${content} </h3>
 	</div>
   </form>
 </div></center>

@@ -30,6 +30,8 @@ public class Content
 	}
 	@Override
 	public String toString() {
-		return "Problem [aid=" + aid + ", label=" + label + ", description=" + description + "]";
+		return "Content [aid=" + aid + ", " + "label=" + label + "," + " description=" + description + "]";
 	}
+	
+	
 }

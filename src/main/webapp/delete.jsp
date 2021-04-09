@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+
 
 <!DOCTYPE html>
 <html>
@@ -29,6 +28,7 @@ input[type=submit] {
 .imgcontainer {
   text-align: center;
   margin: 24px 600 12px 600;
+  
 }
 
 img.avatar {
@@ -39,8 +39,10 @@ img.avatar {
 .format{
 color:#0b0bb1;
   text-align: center;
- 
+  padding: 20px;
+ background-color: #D4E6F1;
 };
+
   
 </style>
 </head>
@@ -49,12 +51,12 @@ color:#0b0bb1;
 
 	<form class = "imgcontainer" action = "deleteProblem">
 	
-	<div class="format "><h2> Delete Issue by ID </h2></div>
+	<div class="format "><h2> Delete Issue by ID </h2>
 
 	<label for="aid"><b> Employee-ID : </b></label>
     	<input type="text" placeholder="Enter your ID here" name="aid" required>
 	<br>
-	<input type="submit" value  = "Delete"><br>
+	<input type="submit" value  = "Delete"><br></div>
 	</form>
 
 </center>

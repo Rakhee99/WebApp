@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+
 
 <!DOCTYPE html>
 <html>
@@ -42,7 +41,8 @@ input[type=submit] {
 .format{
 color:#0b0bb1;
   text-align: center;
- 
+  padding: 20px;
+ background-color: #D4E6F1;
 };
   
 </style>
