@@ -47,5 +47,7 @@ public class ContentController
 			repo.save(content);
 			return "updateIssue.jsp";
 		}
-	}
+	
+
+}
 
