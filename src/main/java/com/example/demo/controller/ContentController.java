@@ -48,6 +48,5 @@ public class ContentController
 			return "updateIssue.jsp";
 		}
 	
-
 }
 

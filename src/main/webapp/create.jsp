@@ -52,7 +52,7 @@ color:#0b0bb1;
 <div class="format">
 	<form class = "imgcontainer" action = "addProblem">
 	
-	<div class="format" ><h2> Raise New Issue </h2></div>
+	<div class="format" ><h2> Welcome, Raise New Issue </h2></div>
 
 	<label  for="aid"><b> Employee-ID : </b></label>
     	<input type="text" placeholder="Enter your ID here" name="aid" required>
